@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ICTR CISO Watchtower</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <h1>ICTR CISO Watchtower</h1>
+      <p>
+        Internal threat-tracking view for Deutsche Börse ICTR teams. Designed for
+        SharePoint hosting and Microsoft Edge.
+      </p>
+    </header>
+
+    <main>
+      <section class="panel">
+        <h2>Filter Active Threat Groups</h2>
+        <label for="search">Search actor / aliases / sectors</label>
+        <input id="search" type="search" placeholder="e.g. Crimson, finance, ransomware" />
+      </section>
+
+      <section class="panel">
+        <h2>Active Threat Groups</h2>
+        <p id="summary" aria-live="polite"></p>
+        <table>
+          <thead>
+            <tr>
+              <th>Actor</th>
+              <th>Status</th>
+              <th>Motivation</th>
+              <th>Targets Relevant to ICTR</th>
+              <th>Sources</th>
+            </tr>
+          </thead>
+          <tbody id="threat-table-body"></tbody>
+        </table>
+      </section>
+
+      <section class="panel">
+        <h2>Corporate Deployment Notes</h2>
+        <ul>
+          <li>No Docker requirement: this site is static HTML/CSS/JS only.</li>
+          <li>Compatible with internal SharePoint pages in Microsoft Edge.</li>
+          <li>
+            If YETI enrichment is needed, run YETI in GitHub Codespaces or another
+            managed VM, export curated data, and update <code>data/threats.json</code>.
+          </li>
+          <li>
+            Keep all outbound updates aligned with corporate controls (including
+            Zscaler policy enforcement).
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <script src="script.js" defer></script>
+  </body>
+</html>
