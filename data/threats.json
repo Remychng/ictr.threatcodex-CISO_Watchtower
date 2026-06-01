@@ -1,0 +1,45 @@
+[
+  {
+    "actor": "Crimson Collective",
+    "aliases": ["Unknown"],
+    "status": "Active",
+    "motivation": "Espionage / financially opportunistic operations",
+    "targets": "Financial services, enterprise infrastructure, identity platforms",
+    "sources": [
+      {
+        "label": "Malpedia: Crimson Collective",
+        "url": "https://malpedia.caad.fkie.fraunhofer.de/actor/crimson_collective"
+      },
+      {
+        "label": "ThreatCodex",
+        "url": "https://threatcodex.com/"
+      }
+    ]
+  },
+  {
+    "actor": "Lazarus Group",
+    "aliases": ["APT38", "Hidden Cobra"],
+    "status": "Active",
+    "motivation": "Financial theft and strategic cyber operations",
+    "targets": "Financial institutions, crypto exchanges, software supply chain",
+    "sources": [
+      {
+        "label": "ThreatCodex",
+        "url": "https://threatcodex.com/"
+      }
+    ]
+  },
+  {
+    "actor": "APT28",
+    "aliases": ["Fancy Bear", "Sofacy"],
+    "status": "Active",
+    "motivation": "Espionage and disruptive access operations",
+    "targets": "Government, financial entities, cloud identity and email systems",
+    "sources": [
+      {
+        "label": "ThreatCodex",
+        "url": "https://threatcodex.com/"
+      }
+    ]
+  }
+]
