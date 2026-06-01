@@ -1,45 +1,3862 @@
-[
-  {
-    "actor": "Crimson Collective",
-    "aliases": ["Unknown"],
-    "status": "Active",
-    "motivation": "Espionage / financially opportunistic operations",
-    "targets": "Financial services, enterprise infrastructure, identity platforms",
-    "sources": [
-      {
-        "label": "Malpedia: Crimson Collective",
-        "url": "https://malpedia.caad.fkie.fraunhofer.de/actor/crimson_collective"
-      },
-      {
-        "label": "ThreatCodex",
-        "url": "https://threatcodex.com/"
+{
+  "lastUpdated": "2026-06-01",
+  "actors": [
+    {
+      "name": "APT1",
+      "aliases": [
+        "Comment Crew",
+        "Shanghai Group"
+      ],
+      "type": "State-Sponsored / APT",
+      "activeSince": 2006,
+      "lastObserved": "2013",
+      "status": "inactive",
+      "statusLabel": "Inactive",
+      "region": "Asia-Pacific",
+      "country": "China",
+      "targetRegions": [
+        "North America",
+        "Europe",
+        "Asia"
+      ],
+      "targetIndustries": [
+        "Aerospace",
+        "Defense",
+        "Technology",
+        "Telecom",
+        "Energy",
+        "Government"
+      ],
+      "ttps": [
+        {
+          "id": "T1566",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1059.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        },
+        {
+          "id": "T1078",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "id": "T1003",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1003/"
+        },
+        {
+          "id": "T1021",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1021/"
+        },
+        {
+          "id": "T1071.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1071/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/apt1",
+        "threatcodex": "https://threatcodex.com/"
       }
-    ]
-  },
-  {
-    "actor": "Lazarus Group",
-    "aliases": ["APT38", "Hidden Cobra"],
-    "status": "Active",
-    "motivation": "Financial theft and strategic cyber operations",
-    "targets": "Financial institutions, crypto exchanges, software supply chain",
-    "sources": [
-      {
-        "label": "ThreatCodex",
-        "url": "https://threatcodex.com/"
+    },
+    {
+      "name": "APT10",
+      "aliases": [
+        "MenuPass",
+        "Stone Panda",
+        "POTASSIUM"
+      ],
+      "type": "State-Sponsored / APT",
+      "activeSince": 2006,
+      "lastObserved": "Ongoing",
+      "status": "active",
+      "statusLabel": "Active",
+      "region": "Asia-Pacific",
+      "country": "China",
+      "targetRegions": [
+        "US",
+        "Japan",
+        "Europe"
+      ],
+      "targetIndustries": [
+        "MSPs",
+        "Healthcare",
+        "Defense",
+        "Telecom",
+        "Government"
+      ],
+      "ttps": [
+        {
+          "id": "T1566.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1059.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        },
+        {
+          "id": "T1078",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "id": "T1003",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1003/"
+        },
+        {
+          "id": "T1071.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1071/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/apt10",
+        "threatcodex": "https://threatcodex.com/"
       }
-    ]
-  },
-  {
-    "actor": "APT28",
-    "aliases": ["Fancy Bear", "Sofacy"],
-    "status": "Active",
-    "motivation": "Espionage and disruptive access operations",
-    "targets": "Government, financial entities, cloud identity and email systems",
-    "sources": [
-      {
-        "label": "ThreatCodex",
-        "url": "https://threatcodex.com/"
+    },
+    {
+      "name": "APT41",
+      "aliases": [
+        "Wicked Panda",
+        "Barium",
+        "Winnti"
+      ],
+      "type": "State-Sponsored / APT",
+      "activeSince": 2012,
+      "lastObserved": "Ongoing",
+      "status": "active",
+      "statusLabel": "Active",
+      "region": "Asia-Pacific",
+      "country": "China",
+      "targetRegions": [
+        "North America",
+        "Europe",
+        "Asia"
+      ],
+      "targetIndustries": [
+        "Healthcare",
+        "Telecoms",
+        "Technology",
+        "Gaming",
+        "Education",
+        "Manufacturing"
+      ],
+      "ttps": [
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1195",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1195/"
+        },
+        {
+          "id": "T1566",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1505.003",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1505/"
+        },
+        {
+          "id": "T1059.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        },
+        {
+          "id": "T1078",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "id": "T1003",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1003/"
+        },
+        {
+          "id": "T1021",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1021/"
+        },
+        {
+          "id": "T1071.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1071/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/apt41",
+        "threatcodex": "https://threatcodex.com/"
       }
-    ]
-  }
-]
+    },
+    {
+      "name": "BRONZE BUTLER",
+      "aliases": [
+        "Tick",
+        "RedBaldKnight"
+      ],
+      "type": "State-Sponsored / APT",
+      "activeSince": 2008,
+      "lastObserved": "2019",
+      "status": "inactive",
+      "statusLabel": "Inactive",
+      "region": "Asia-Pacific",
+      "country": "China",
+      "targetRegions": [
+        "Japan",
+        "South Korea",
+        "Asia-Pacific"
+      ],
+      "targetIndustries": [
+        "Defence",
+        "Aerospace",
+        "Heavy Industry",
+        "Chemical",
+        "Manufacturing"
+      ],
+      "ttps": [
+        {
+          "id": "T1566.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1059.003",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        },
+        {
+          "id": "T1105",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1105/"
+        },
+        {
+          "id": "T1027",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1027/"
+        },
+        {
+          "id": "T1003.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1003/"
+        },
+        {
+          "id": "T1071.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1071/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/bronze_butler",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "Earth Alux",
+      "aliases": [
+        "REF7707",
+        "Jewelbug",
+        "Ink Dragon",
+        "Long Nosed Goblin"
+      ],
+      "type": "State-Sponsored / APT",
+      "activeSince": 2023,
+      "lastObserved": "2025",
+      "status": "unknown",
+      "statusLabel": "Unknown",
+      "region": "Asia-Pacific",
+      "country": "China",
+      "targetRegions": [
+        "Brazil",
+        "Malaysia",
+        "Philippines",
+        "Russia",
+        "Taiwan",
+        "Thailand"
+      ],
+      "targetIndustries": [
+        "Government",
+        "Logistics",
+        "Manufacturing",
+        "Technology",
+        "Software"
+      ],
+      "ttps": [
+        {
+          "id": "T1567.002",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1567/"
+        },
+        {
+          "id": "T1087",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1087/"
+        },
+        {
+          "id": "T1680",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1680/"
+        },
+        {
+          "id": "T1003",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1003/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/earth_alux",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "Mustang Panda",
+      "aliases": [
+        "TA416",
+        "RedDelta",
+        "Earth Preta"
+      ],
+      "type": "State-Sponsored / APT",
+      "activeSince": 2017,
+      "lastObserved": "Ongoing",
+      "status": "active",
+      "statusLabel": "Active",
+      "region": "Asia-Pacific",
+      "country": "China",
+      "targetRegions": [
+        "EU",
+        "SE Asia",
+        "Taiwan",
+        "Mongolia"
+      ],
+      "targetIndustries": [
+        "Government",
+        "NGOs",
+        "Think Tanks",
+        "Education"
+      ],
+      "ttps": [
+        {
+          "id": "T1566",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1059.003",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        },
+        {
+          "id": "T1105",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1105/"
+        },
+        {
+          "id": "T1027",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1027/"
+        },
+        {
+          "id": "T1560.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1560/"
+        },
+        {
+          "id": "T1071.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1071/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/mustang_panda",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "Nylon Typhoon",
+      "aliases": [
+        "APT15",
+        "Ke3Chang",
+        "Vixen Panda"
+      ],
+      "type": "State-Sponsored / APT",
+      "activeSince": 2010,
+      "lastObserved": "Ongoing",
+      "status": "active",
+      "statusLabel": "Active",
+      "region": "Asia-Pacific",
+      "country": "China",
+      "targetRegions": [
+        "UK",
+        "EU",
+        "Latin America",
+        "Africa",
+        "Asia"
+      ],
+      "targetIndustries": [
+        "Government",
+        "Defence",
+        "Energy",
+        "Telecom"
+      ],
+      "ttps": [
+        {
+          "id": "T1566",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1059.003",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        },
+        {
+          "id": "T1505.003",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1505/"
+        },
+        {
+          "id": "T1078",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "id": "T1003",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1003/"
+        },
+        {
+          "id": "T1021",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1021/"
+        },
+        {
+          "id": "T1071.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1071/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/nylon_typhoon",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "PLUSHDAEMON",
+      "aliases": [],
+      "type": "State-Sponsored / APT",
+      "activeSince": 2025,
+      "lastObserved": "2025",
+      "status": "unknown",
+      "statusLabel": "Unknown",
+      "region": "Asia-Pacific",
+      "country": "China",
+      "targetRegions": [
+        "Cambodia",
+        "China",
+        "New Zealand",
+        "Taiwan",
+        "US"
+      ],
+      "targetIndustries": [
+        "Telecoms",
+        "Government",
+        "ISPs",
+        "MSPs"
+      ],
+      "ttps": [
+        {
+          "id": "T1583",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1583/"
+        },
+        {
+          "id": "T1608",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1608/"
+        },
+        {
+          "id": "T1659",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1659/"
+        },
+        {
+          "id": "T1106",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1106/"
+        },
+        {
+          "id": "T1027",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1027/"
+        },
+        {
+          "id": "T1036",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1036/"
+        },
+        {
+          "id": "T1070",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1070/"
+        },
+        {
+          "id": "T1016",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1016/"
+        },
+        {
+          "id": "T1057",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1057/"
+        },
+        {
+          "id": "T1518",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1518/"
+        },
+        {
+          "id": "T1071",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1071/"
+        },
+        {
+          "id": "T1573",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1573/"
+        },
+        {
+          "id": "T1665",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1665/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/plushdaemon",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "Salt Typhoon",
+      "aliases": [
+        "UNC2286",
+        "GhostEmperor",
+        "FamousSparrow",
+        "OPERATOR PANDA"
+      ],
+      "type": "State-Sponsored / APT",
+      "activeSince": 2019,
+      "lastObserved": "Ongoing",
+      "status": "active",
+      "statusLabel": "Active",
+      "region": "Asia-Pacific",
+      "country": "China",
+      "targetRegions": [
+        "Middle East",
+        "SE Asia",
+        "Europe"
+      ],
+      "targetIndustries": [
+        "Government",
+        "Telecoms",
+        "IT",
+        "NGOs",
+        "Education"
+      ],
+      "ttps": [
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1505.003",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1505/"
+        },
+        {
+          "id": "T1059.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        },
+        {
+          "id": "T1047",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1047/"
+        },
+        {
+          "id": "T1014",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1014/"
+        },
+        {
+          "id": "T1021",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1021/"
+        },
+        {
+          "id": "T1071.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1071/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/salt_typhoon",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "ShadyPanda",
+      "aliases": [
+        "Dark Spectre",
+        "Ghost Poster"
+      ],
+      "type": "State-Sponsored / APT",
+      "activeSince": 2023,
+      "lastObserved": "2025",
+      "status": "unknown",
+      "statusLabel": "Unknown",
+      "region": "Asia-Pacific",
+      "country": "China",
+      "targetRegions": [
+        "Global"
+      ],
+      "targetIndustries": [
+        "Corporate Credentials",
+        "Video Conferencing",
+        "Cryptocurrency"
+      ],
+      "ttps": [
+        {
+          "id": "T1583",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1583/"
+        },
+        {
+          "id": "T1059",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        },
+        {
+          "id": "T1176",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1176/"
+        },
+        {
+          "id": "T1071",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1071/"
+        },
+        {
+          "id": "T1565",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1565/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/shadypanda",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "Storm-1849",
+      "aliases": [
+        "UAT4356"
+      ],
+      "type": "State-Sponsored / APT",
+      "activeSince": 2024,
+      "lastObserved": "2025",
+      "status": "unknown",
+      "statusLabel": "Unknown",
+      "region": "Asia-Pacific",
+      "country": "China",
+      "targetRegions": [
+        "US",
+        "Allied Countries"
+      ],
+      "targetIndustries": [
+        "Network Infrastructure",
+        "Government",
+        "Large Enterprises"
+      ],
+      "ttps": [
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1505.003",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1505/"
+        },
+        {
+          "id": "T1078",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "id": "T1021",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1021/"
+        },
+        {
+          "id": "T1041",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1041/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/storm_1849",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "FireAnt",
+      "aliases": [
+        "UNC3886"
+      ],
+      "type": "State-Sponsored / APT",
+      "activeSince": 2021,
+      "lastObserved": "Ongoing",
+      "status": "active",
+      "statusLabel": "Active",
+      "region": "Asia-Pacific",
+      "country": "China",
+      "targetRegions": [
+        "US",
+        "Asia"
+      ],
+      "targetIndustries": [
+        "Defence",
+        "Telecom",
+        "Cloud/Virtualisation"
+      ],
+      "ttps": [
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1505.003",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1505/"
+        },
+        {
+          "id": "T1078",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "id": "T1021.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1021/"
+        },
+        {
+          "id": "T1003",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1003/"
+        },
+        {
+          "id": "T1105",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1105/"
+        },
+        {
+          "id": "T1041",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1041/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/fireant",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "UTA0178",
+      "aliases": [
+        "UNC5221",
+        "Red Dev 61"
+      ],
+      "type": "State-Sponsored / APT",
+      "activeSince": 2022,
+      "lastObserved": "Ongoing",
+      "status": "active",
+      "statusLabel": "Active",
+      "region": "Asia-Pacific",
+      "country": "China",
+      "targetRegions": [
+        "US",
+        "Europe"
+      ],
+      "targetIndustries": [
+        "Government",
+        "Telecom",
+        "Manufacturing",
+        "Critical Infrastructure"
+      ],
+      "ttps": [
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1505.003",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1505/"
+        },
+        {
+          "id": "T1078",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "id": "T1105",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1105/"
+        },
+        {
+          "id": "T1021",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1021/"
+        },
+        {
+          "id": "T1041",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1041/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/uta0178",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "Volt Typhoon",
+      "aliases": [
+        "Voltzite",
+        "UNC3236"
+      ],
+      "type": "State-Sponsored / APT",
+      "activeSince": 2019,
+      "lastObserved": "Ongoing",
+      "status": "active",
+      "statusLabel": "Active",
+      "region": "Asia-Pacific",
+      "country": "China",
+      "targetRegions": [
+        "US"
+      ],
+      "targetIndustries": [
+        "Communications",
+        "Electric Utilities",
+        "Transportation",
+        "Government",
+        "Critical Infrastructure"
+      ],
+      "ttps": [
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1133",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1133/"
+        },
+        {
+          "id": "T1059.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        },
+        {
+          "id": "T1047",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1047/"
+        },
+        {
+          "id": "T1021.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1021/"
+        },
+        {
+          "id": "T1090",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1090/"
+        },
+        {
+          "id": "T1552",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1552/"
+        },
+        {
+          "id": "T1003",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1003/"
+        },
+        {
+          "id": "T1041",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1041/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/volt_typhoon",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "APT28",
+      "aliases": [
+        "Fancy Bear",
+        "Forest Blizzard",
+        "Pawn Storm"
+      ],
+      "type": "State-Sponsored / APT",
+      "activeSince": 2004,
+      "lastObserved": "Ongoing",
+      "status": "active",
+      "statusLabel": "Active",
+      "region": "Europe",
+      "country": "Russia",
+      "targetRegions": [
+        "Ukraine",
+        "NATO/EU",
+        "US"
+      ],
+      "targetIndustries": [
+        "Government",
+        "Political Organizations",
+        "Media"
+      ],
+      "ttps": [
+        {
+          "id": "T1566.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1059.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        },
+        {
+          "id": "T1047",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1047/"
+        },
+        {
+          "id": "T1003.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1003/"
+        },
+        {
+          "id": "T1021.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1021/"
+        },
+        {
+          "id": "T1071.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1071/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/apt28",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "APT29",
+      "aliases": [
+        "Cozy Bear",
+        "Midnight Blizzard",
+        "UNC2452"
+      ],
+      "type": "State-Sponsored / APT",
+      "activeSince": 2008,
+      "lastObserved": "Ongoing",
+      "status": "active",
+      "statusLabel": "Active",
+      "region": "Europe",
+      "country": "Russia",
+      "targetRegions": [
+        "US",
+        "NATO/EU"
+      ],
+      "targetIndustries": [
+        "Government",
+        "Diplomatic Missions",
+        "Think Tanks",
+        "IT/Cloud MSPs"
+      ],
+      "ttps": [
+        {
+          "id": "T1566.002",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1195",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1195/"
+        },
+        {
+          "id": "T1078",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "id": "T1078.004",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "id": "T1114.003",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1114/"
+        },
+        {
+          "id": "T1550",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1550/"
+        },
+        {
+          "id": "T1098",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1098/"
+        },
+        {
+          "id": "T1071.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1071/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/apt29",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "Blue Callisto",
+      "aliases": [
+        "Star Blizzard",
+        "TAG-53"
+      ],
+      "type": "State-Sponsored / APT",
+      "activeSince": 2017,
+      "lastObserved": "Ongoing",
+      "status": "active",
+      "statusLabel": "Active",
+      "region": "Europe",
+      "country": "Russia",
+      "targetRegions": [
+        "UK",
+        "US",
+        "NATO/Western Europe"
+      ],
+      "targetIndustries": [
+        "Government",
+        "Academia",
+        "Think Tanks",
+        "NGOs"
+      ],
+      "ttps": [
+        {
+          "id": "T1566.002",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1566.003",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1585.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1585/"
+        },
+        {
+          "id": "T1110",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1110/"
+        },
+        {
+          "id": "T1078",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "id": "T1114.003",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1114/"
+        },
+        {
+          "id": "T1071.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1071/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/blue_callisto",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "Gamaredon",
+      "aliases": [
+        "Primitive Bear",
+        "Armageddon",
+        "Shuckworm"
+      ],
+      "type": "State-Sponsored / APT",
+      "activeSince": 2013,
+      "lastObserved": "Very active",
+      "status": "active",
+      "statusLabel": "Active",
+      "region": "Europe",
+      "country": "Russia",
+      "targetRegions": [
+        "Ukraine",
+        "NATO"
+      ],
+      "targetIndustries": [
+        "Ukrainian Government",
+        "Military",
+        "Critical Infrastructure"
+      ],
+      "ttps": [
+        {
+          "id": "T1566.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1566.002",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1105",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1105/"
+        },
+        {
+          "id": "T1027",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1027/"
+        },
+        {
+          "id": "T1053.005",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1053/"
+        },
+        {
+          "id": "T1114.002",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1114/"
+        },
+        {
+          "id": "T1071.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1071/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/gamaredon",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "Sandworm Team",
+      "aliases": [
+        "APT44",
+        "BlackEnergy",
+        "VoodooBear"
+      ],
+      "type": "State-Sponsored / APT",
+      "activeSince": 2009,
+      "lastObserved": "Ongoing",
+      "status": "active",
+      "statusLabel": "Active",
+      "region": "Europe",
+      "country": "Russia",
+      "targetRegions": [
+        "Ukraine",
+        "Eastern Europe"
+      ],
+      "targetIndustries": [
+        "Energy",
+        "ICT/OT",
+        "Telecoms",
+        "Government",
+        "Media"
+      ],
+      "ttps": [
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1565.002",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1565/"
+        },
+        {
+          "id": "T1485",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1485/"
+        },
+        {
+          "id": "T1489",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1489/"
+        },
+        {
+          "id": "T1021",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1021/"
+        },
+        {
+          "id": "T1059.003",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        },
+        {
+          "id": "T1071.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1071/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/sandworm_team",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "Turla",
+      "aliases": [
+        "Snake",
+        "Venomous Bear",
+        "KRYPTON"
+      ],
+      "type": "State-Sponsored / APT",
+      "activeSince": 2004,
+      "lastObserved": "Ongoing",
+      "status": "active",
+      "statusLabel": "Active",
+      "region": "Europe",
+      "country": "Russia",
+      "targetRegions": [
+        "Europe",
+        "Former Soviet Republics",
+        "Middle East",
+        "North America"
+      ],
+      "targetIndustries": [
+        "Government",
+        "Defence",
+        "Research",
+        "Energy"
+      ],
+      "ttps": [
+        {
+          "id": "T1566.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1105",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1105/"
+        },
+        {
+          "id": "T1078",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "id": "T1090",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1090/"
+        },
+        {
+          "id": "T1003",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1003/"
+        },
+        {
+          "id": "T1071.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1071/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/turla",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "Void Blizzard",
+      "aliases": [
+        "Laundry Bear"
+      ],
+      "type": "State-Sponsored / APT",
+      "activeSince": 2024,
+      "lastObserved": "2024",
+      "status": "active",
+      "statusLabel": "Active",
+      "region": "Europe",
+      "country": "Russia",
+      "targetRegions": [
+        "Ukraine",
+        "NATO/Western Europe"
+      ],
+      "targetIndustries": [
+        "Government",
+        "Defence",
+        "Critical Infrastructure"
+      ],
+      "ttps": [
+        {
+          "id": "T1566",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1078",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "id": "T1114.003",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1114/"
+        },
+        {
+          "id": "T1059",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        },
+        {
+          "id": "T1071.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1071/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/void_blizzard",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "NoName057",
+      "aliases": [
+        "NoName057(16)"
+      ],
+      "type": "Hacktivist / DDoS",
+      "activeSince": 2022,
+      "lastObserved": "Ongoing",
+      "status": "active",
+      "statusLabel": "Active",
+      "region": "Europe",
+      "country": "Russia",
+      "targetRegions": [
+        "Ukraine",
+        "NATO/EU"
+      ],
+      "targetIndustries": [
+        "Government Portals",
+        "Financial Services",
+        "Transportation",
+        "Media"
+      ],
+      "ttps": [
+        {
+          "id": "T1498",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1498/"
+        },
+        {
+          "id": "T1499",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1499/"
+        },
+        {
+          "id": "T1583.006",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1583/"
+        },
+        {
+          "id": "T1105",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1105/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/noname057",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "APT38",
+      "aliases": [
+        "Stardust Chollima",
+        "Bluenoroff"
+      ],
+      "type": "State-Sponsored / APT",
+      "activeSince": 2009,
+      "lastObserved": "Ongoing",
+      "status": "active",
+      "statusLabel": "Active",
+      "region": "Asia-Pacific",
+      "country": "North Korea",
+      "targetRegions": [
+        "Asia",
+        "Middle East",
+        "Africa"
+      ],
+      "targetIndustries": [
+        "Banks",
+        "Crypto Exchanges",
+        "Fintech"
+      ],
+      "ttps": [
+        {
+          "id": "T1566.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1078",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "id": "T1003.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1003/"
+        },
+        {
+          "id": "T1105",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1105/"
+        },
+        {
+          "id": "T1041",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1041/"
+        },
+        {
+          "id": "T1486",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1486/"
+        },
+        {
+          "id": "T1027",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1027/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/apt38",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "Lazarus",
+      "aliases": [
+        "Hidden Cobra",
+        "Labyrinth Chollima",
+        "Zinc"
+      ],
+      "type": "State-Sponsored / APT",
+      "activeSince": 2009,
+      "lastObserved": "Ongoing",
+      "status": "active",
+      "statusLabel": "Active",
+      "region": "Asia-Pacific",
+      "country": "North Korea",
+      "targetRegions": [
+        "South Korea",
+        "US",
+        "Global Crypto"
+      ],
+      "targetIndustries": [
+        "Government",
+        "Media",
+        "Financial Services",
+        "Software Supply Chain"
+      ],
+      "ttps": [
+        {
+          "id": "T1566.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1078",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "id": "T1105",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1105/"
+        },
+        {
+          "id": "T1059.003",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        },
+        {
+          "id": "T1485",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1485/"
+        },
+        {
+          "id": "T1041",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1041/"
+        },
+        {
+          "id": "T1027",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1027/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/lazarus",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "Kimsuky",
+      "aliases": [
+        "Velvet Chollima",
+        "Thallium",
+        "Black Banshee"
+      ],
+      "type": "State-Sponsored / APT",
+      "activeSince": 2012,
+      "lastObserved": "Ongoing",
+      "status": "active",
+      "statusLabel": "Active",
+      "region": "Asia-Pacific",
+      "country": "North Korea",
+      "targetRegions": [
+        "South Korea",
+        "US",
+        "Japan"
+      ],
+      "targetIndustries": [
+        "Government",
+        "Think Tanks",
+        "Academia",
+        "Defence",
+        "Media"
+      ],
+      "ttps": [
+        {
+          "id": "T1566.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1566.002",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1204.002",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1204/"
+        },
+        {
+          "id": "T1114.003",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1114/"
+        },
+        {
+          "id": "T1555",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1555/"
+        },
+        {
+          "id": "T1003.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1003/"
+        },
+        {
+          "id": "T1071.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1071/"
+        },
+        {
+          "id": "T1585.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1585/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/kimsuky",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "Moonstone Sleet",
+      "aliases": [
+        "Storm-1789"
+      ],
+      "type": "State-Sponsored / APT",
+      "activeSince": 2023,
+      "lastObserved": "Ongoing",
+      "status": "active",
+      "statusLabel": "Active",
+      "region": "Asia-Pacific",
+      "country": "North Korea",
+      "targetRegions": [
+        "US",
+        "South Korea",
+        "Europe"
+      ],
+      "targetIndustries": [
+        "Software/IT",
+        "Gaming",
+        "Crypto/Blockchain"
+      ],
+      "ttps": [
+        {
+          "id": "T1566.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1204.002",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1204/"
+        },
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1105",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1105/"
+        },
+        {
+          "id": "T1078",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "id": "T1486",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1486/"
+        },
+        {
+          "id": "T1027",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1027/"
+        },
+        {
+          "id": "T1041",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1041/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/moonstone_sleet",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "ScarCruft",
+      "aliases": [
+        "APT37",
+        "Reaper",
+        "Ricochet Chollima"
+      ],
+      "type": "State-Sponsored / APT",
+      "activeSince": 2012,
+      "lastObserved": "Ongoing",
+      "status": "active",
+      "statusLabel": "Active",
+      "region": "Asia-Pacific",
+      "country": "North Korea",
+      "targetRegions": [
+        "South Korea",
+        "East Asia"
+      ],
+      "targetIndustries": [
+        "Government",
+        "Defence",
+        "NGOs",
+        "Manufacturing"
+      ],
+      "ttps": [
+        {
+          "id": "T1566.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1203",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1203/"
+        },
+        {
+          "id": "T1105",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1105/"
+        },
+        {
+          "id": "T1071.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1071/"
+        },
+        {
+          "id": "T1003.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1003/"
+        },
+        {
+          "id": "T1027",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1027/"
+        },
+        {
+          "id": "T1059.003",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/scarcruft",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "WageMole",
+      "aliases": [
+        "CL-STA-0240",
+        "Famous Chollima",
+        "PurpleBravo"
+      ],
+      "type": "State-Sponsored / APT",
+      "activeSince": 2024,
+      "lastObserved": "2026",
+      "status": "active",
+      "statusLabel": "Active",
+      "region": "Asia-Pacific",
+      "country": "North Korea",
+      "targetRegions": [
+        "South America",
+        "US",
+        "Canada",
+        "Europe",
+        "India",
+        "Pakistan",
+        "Australia"
+      ],
+      "targetIndustries": [
+        "Crypto",
+        "Financial Services",
+        "Technology"
+      ],
+      "ttps": [
+        {
+          "id": "T1195",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1195/"
+        },
+        {
+          "id": "T1059",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        },
+        {
+          "id": "T1027",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1027/"
+        },
+        {
+          "id": "T1555",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1555/"
+        },
+        {
+          "id": "T1005",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1005/"
+        },
+        {
+          "id": "T1071",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1071/"
+        },
+        {
+          "id": "T1041",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1041/"
+        },
+        {
+          "id": "T1657",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1657/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/wagemole",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "APT33",
+      "aliases": [
+        "Elfin",
+        "Refined Kitten",
+        "Magnallium",
+        "HOLMIUM"
+      ],
+      "type": "State-Sponsored / APT",
+      "activeSince": 2018,
+      "lastObserved": "2022",
+      "status": "inactive",
+      "statusLabel": "Inactive",
+      "region": "Middle East",
+      "country": "Iran",
+      "targetRegions": [
+        "Gulf Region",
+        "US"
+      ],
+      "targetIndustries": [
+        "Energy",
+        "Aviation",
+        "Government/Defence"
+      ],
+      "ttps": [
+        {
+          "id": "T1566.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1078",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "id": "T1105",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1105/"
+        },
+        {
+          "id": "T1059.003",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        },
+        {
+          "id": "T1021.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1021/"
+        },
+        {
+          "id": "T1003.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1003/"
+        },
+        {
+          "id": "T1071.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1071/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/apt33",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "Charming Kitten",
+      "aliases": [
+        "APT35",
+        "Phosphorus",
+        "Newscaster"
+      ],
+      "type": "State-Sponsored / APT",
+      "activeSince": 2014,
+      "lastObserved": "Ongoing",
+      "status": "active",
+      "statusLabel": "Active",
+      "region": "Middle East",
+      "country": "Iran",
+      "targetRegions": [
+        "US",
+        "Europe",
+        "Israel"
+      ],
+      "targetIndustries": [
+        "Government",
+        "Think Tanks",
+        "Activists",
+        "NGOs"
+      ],
+      "ttps": [
+        {
+          "id": "T1566.002",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1566.003",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1585.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1585/"
+        },
+        {
+          "id": "T1204.002",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1204/"
+        },
+        {
+          "id": "T1078",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "id": "T1114.003",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1114/"
+        },
+        {
+          "id": "T1110",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1110/"
+        },
+        {
+          "id": "T1071.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1071/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/charming_kitten",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "MuddyWater",
+      "aliases": [
+        "Seedworm",
+        "Mercury",
+        "Static Kitten"
+      ],
+      "type": "State-Sponsored / APT",
+      "activeSince": 2017,
+      "lastObserved": "Ongoing",
+      "status": "active",
+      "statusLabel": "Active",
+      "region": "Middle East",
+      "country": "Iran",
+      "targetRegions": [
+        "Middle East",
+        "Turkey",
+        "Pakistan"
+      ],
+      "targetIndustries": [
+        "Government",
+        "Telecoms",
+        "Defence",
+        "Oil/Gas"
+      ],
+      "ttps": [
+        {
+          "id": "T1566.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1059.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        },
+        {
+          "id": "T1105",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1105/"
+        },
+        {
+          "id": "T1027",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1027/"
+        },
+        {
+          "id": "T1082",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1082/"
+        },
+        {
+          "id": "T1083",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1083/"
+        },
+        {
+          "id": "T1071.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1071/"
+        },
+        {
+          "id": "T1003",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1003/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/muddywater",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "HAZY TIGER",
+      "aliases": [
+        "Bitter",
+        "TA397",
+        "Manlinghua",
+        "Cranberry",
+        "Earth Anasi"
+      ],
+      "type": "State-Sponsored / APT",
+      "activeSince": 2011,
+      "lastObserved": "2025",
+      "status": "unknown",
+      "statusLabel": "Unknown",
+      "region": "Asia-Pacific",
+      "country": "India",
+      "targetRegions": [
+        "Bangladesh",
+        "China",
+        "India",
+        "Madagascar",
+        "Pakistan"
+      ],
+      "targetIndustries": [
+        "Government",
+        "Military"
+      ],
+      "ttps": [
+        {
+          "id": "T1566",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1203",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1203/"
+        },
+        {
+          "id": "T1059",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        },
+        {
+          "id": "T1137",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1137/"
+        },
+        {
+          "id": "T1068",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1068/"
+        },
+        {
+          "id": "T1021",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1021/"
+        },
+        {
+          "id": "T1071",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1071/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/hazy_tiger",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "Sea Turtle",
+      "aliases": [
+        "Marbled Dust",
+        "Cosmic Wolf",
+        "SILICON",
+        "Teal Kurma"
+      ],
+      "type": "State-Sponsored / APT",
+      "activeSince": 2021,
+      "lastObserved": "2025",
+      "status": "unknown",
+      "statusLabel": "Unknown",
+      "region": "Middle East",
+      "country": "Turkey",
+      "targetRegions": [
+        "Middle East",
+        "Albania",
+        "Armenia",
+        "Cyprus",
+        "Netherlands",
+        "Sweden"
+      ],
+      "targetIndustries": [
+        "Energy",
+        "Government",
+        "Military",
+        "NGO",
+        "Telecom"
+      ],
+      "ttps": [
+        {
+          "id": "T1584",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1584/"
+        },
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1505",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1505/"
+        },
+        {
+          "id": "T1565",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1565/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/sea_turtle",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "Clop",
+      "aliases": [
+        "TA505",
+        "Lace Tempest",
+        "FIN11",
+        "MONTY SPIDER"
+      ],
+      "type": "Ransomware / Cybercrime",
+      "activeSince": 2019,
+      "lastObserved": "Ongoing",
+      "status": "active",
+      "statusLabel": "Active",
+      "region": "Europe",
+      "country": "Russia/CIS",
+      "targetRegions": [
+        "US",
+        "Europe"
+      ],
+      "targetIndustries": [
+        "Multi-sector"
+      ],
+      "ttps": [
+        {
+          "id": "T1566",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1133",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1133/"
+        },
+        {
+          "id": "T1059",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        },
+        {
+          "id": "T1021",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1021/"
+        },
+        {
+          "id": "T1041",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1041/"
+        },
+        {
+          "id": "T1486",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1486/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/clop",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "Hunters International",
+      "aliases": [],
+      "type": "Ransomware / Cybercrime",
+      "activeSince": 2023,
+      "lastObserved": "Ongoing",
+      "status": "active",
+      "statusLabel": "Active",
+      "region": "Europe",
+      "country": "Russia/CIS",
+      "targetRegions": [
+        "US",
+        "Europe"
+      ],
+      "targetIndustries": [
+        "Multi-sector"
+      ],
+      "ttps": [
+        {
+          "id": "T1566",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1133",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1133/"
+        },
+        {
+          "id": "T1059",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        },
+        {
+          "id": "T1021",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1021/"
+        },
+        {
+          "id": "T1041",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1041/"
+        },
+        {
+          "id": "T1486",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1486/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/hunters_international",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "Play Ransomware",
+      "aliases": [
+        "PLAY",
+        "PlayCrypt"
+      ],
+      "type": "Ransomware / Cybercrime",
+      "activeSince": 2022,
+      "lastObserved": "2024",
+      "status": "unknown",
+      "statusLabel": "Unknown",
+      "region": "Europe",
+      "country": "Russia/CIS",
+      "targetRegions": [
+        "US",
+        "Europe"
+      ],
+      "targetIndustries": [
+        "Multi-sector"
+      ],
+      "ttps": [
+        {
+          "id": "T1566",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1133",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1133/"
+        },
+        {
+          "id": "T1059",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        },
+        {
+          "id": "T1021",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1021/"
+        },
+        {
+          "id": "T1041",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1041/"
+        },
+        {
+          "id": "T1486",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1486/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/play_ransomware",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "SafePay",
+      "aliases": [],
+      "type": "Ransomware / Cybercrime",
+      "activeSince": 2024,
+      "lastObserved": "2025",
+      "status": "unknown",
+      "statusLabel": "Unknown",
+      "region": "Europe",
+      "country": "Russia/CIS",
+      "targetRegions": [
+        "US",
+        "Europe"
+      ],
+      "targetIndustries": [
+        "Multi-sector"
+      ],
+      "ttps": [
+        {
+          "id": "T1566",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1133",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1133/"
+        },
+        {
+          "id": "T1059",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        },
+        {
+          "id": "T1021",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1021/"
+        },
+        {
+          "id": "T1041",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1041/"
+        },
+        {
+          "id": "T1486",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1486/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/safepay",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "RansomHub",
+      "aliases": [],
+      "type": "Ransomware / Cybercrime",
+      "activeSince": 2024,
+      "lastObserved": "2024",
+      "status": "unknown",
+      "statusLabel": "Unknown",
+      "region": "Europe",
+      "country": "Russia/CIS",
+      "targetRegions": [
+        "US",
+        "Europe"
+      ],
+      "targetIndustries": [
+        "Multi-sector"
+      ],
+      "ttps": [
+        {
+          "id": "T1566",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1133",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1133/"
+        },
+        {
+          "id": "T1059",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        },
+        {
+          "id": "T1021",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1021/"
+        },
+        {
+          "id": "T1041",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1041/"
+        },
+        {
+          "id": "T1486",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1486/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/ransomhub",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "TA829",
+      "aliases": [
+        "UNC2596",
+        "Storm-0978",
+        "DEV-0978",
+        "Storm-0671"
+      ],
+      "type": "Ransomware / Cybercrime",
+      "activeSince": 2023,
+      "lastObserved": "2025",
+      "status": "unknown",
+      "statusLabel": "Unknown",
+      "region": "Europe",
+      "country": "Russia/CIS",
+      "targetRegions": [
+        "US",
+        "Europe"
+      ],
+      "targetIndustries": [
+        "Multi-sector"
+      ],
+      "ttps": [
+        {
+          "id": "T1566",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1133",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1133/"
+        },
+        {
+          "id": "T1059",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        },
+        {
+          "id": "T1021",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1021/"
+        },
+        {
+          "id": "T1041",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1041/"
+        },
+        {
+          "id": "T1486",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1486/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/ta829",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "Mustard Tempest",
+      "aliases": [
+        "DEV-0206",
+        "UNC1543",
+        "Purple Vallhund",
+        "Parrot TDS"
+      ],
+      "type": "Ransomware / Cybercrime",
+      "activeSince": 2022,
+      "lastObserved": "2025",
+      "status": "unknown",
+      "statusLabel": "Unknown",
+      "region": "Europe",
+      "country": "Russia/CIS",
+      "targetRegions": [
+        "US",
+        "Europe"
+      ],
+      "targetIndustries": [
+        "Multi-sector"
+      ],
+      "ttps": [
+        {
+          "id": "T1566",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1133",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1133/"
+        },
+        {
+          "id": "T1059",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        },
+        {
+          "id": "T1021",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1021/"
+        },
+        {
+          "id": "T1041",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1041/"
+        },
+        {
+          "id": "T1486",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1486/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/mustard_tempest",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "8Base",
+      "aliases": [],
+      "type": "Ransomware / Cybercrime",
+      "activeSince": 2022,
+      "lastObserved": "2024",
+      "status": "unknown",
+      "statusLabel": "Unknown",
+      "region": "Global/Multi-region",
+      "country": "Unknown/Multiple",
+      "targetRegions": [
+        "US",
+        "Western Europe",
+        "Latin America"
+      ],
+      "targetIndustries": [
+        "Manufacturing",
+        "Professional Services",
+        "Construction",
+        "Technology/Telecom"
+      ],
+      "ttps": [
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1133",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1133/"
+        },
+        {
+          "id": "T1078",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "id": "T1059.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        },
+        {
+          "id": "T1105",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1105/"
+        },
+        {
+          "id": "T1021.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1021/"
+        },
+        {
+          "id": "T1027",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1027/"
+        },
+        {
+          "id": "T1486",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1486/"
+        },
+        {
+          "id": "T1041",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1041/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/8base",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "Cactus",
+      "aliases": [],
+      "type": "Ransomware / Cybercrime",
+      "activeSince": 2023,
+      "lastObserved": "2024",
+      "status": "unknown",
+      "statusLabel": "Unknown",
+      "region": "Global/Multi-region",
+      "country": "Unknown/Multiple",
+      "targetRegions": [
+        "US",
+        "Western Europe"
+      ],
+      "targetIndustries": [
+        "Manufacturing",
+        "Professional Services",
+        "Technology/Telecom"
+      ],
+      "ttps": [
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1133",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1133/"
+        },
+        {
+          "id": "T1078",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "id": "T1059.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        },
+        {
+          "id": "T1105",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1105/"
+        },
+        {
+          "id": "T1021.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1021/"
+        },
+        {
+          "id": "T1027",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1027/"
+        },
+        {
+          "id": "T1486",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1486/"
+        },
+        {
+          "id": "T1041",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1041/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/cactus",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "Crimson Collective",
+      "aliases": [],
+      "type": "Ransomware / Cybercrime",
+      "activeSince": 2025,
+      "lastObserved": "2025",
+      "status": "unknown",
+      "statusLabel": "Unknown",
+      "region": "Global/Multi-region",
+      "country": "Unknown/Multiple",
+      "targetRegions": [
+        "US/Canada",
+        "UK",
+        "Europe"
+      ],
+      "targetIndustries": [
+        "Technology/Cloud",
+        "Financial Services",
+        "Manufacturing",
+        "Business Services"
+      ],
+      "ttps": [
+        {
+          "id": "T1586",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1586/"
+        },
+        {
+          "id": "T1580",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1580/"
+        },
+        {
+          "id": "T1136",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1136/"
+        },
+        {
+          "id": "T1567",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1567/"
+        },
+        {
+          "id": "T1486",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1486/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/crimson_collective",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "Crypto24",
+      "aliases": [],
+      "type": "Ransomware / Cybercrime",
+      "activeSince": 2024,
+      "lastObserved": "2025",
+      "status": "unknown",
+      "statusLabel": "Unknown",
+      "region": "Global/Multi-region",
+      "country": "Unknown/Multiple",
+      "targetRegions": [
+        "North America",
+        "Europe",
+        "Asia-Pacific"
+      ],
+      "targetIndustries": [
+        "Manufacturing",
+        "Financial Services",
+        "Healthcare",
+        "Technology",
+        "Aerospace/Defence",
+        "Logistics/IT"
+      ],
+      "ttps": [
+        {
+          "id": "T1059",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        },
+        {
+          "id": "T1562",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1562/"
+        },
+        {
+          "id": "T1497",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1497/"
+        },
+        {
+          "id": "T1003",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1003/"
+        },
+        {
+          "id": "T1021",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1021/"
+        },
+        {
+          "id": "T1567",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1567/"
+        },
+        {
+          "id": "T1486",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1486/"
+        },
+        {
+          "id": "T1490",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1490/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/crypto24",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "Everest",
+      "aliases": [],
+      "type": "Ransomware / Cybercrime",
+      "activeSince": 2023,
+      "lastObserved": "Ongoing",
+      "status": "active",
+      "statusLabel": "Active",
+      "region": "Global/Multi-region",
+      "country": "Unknown/Multiple",
+      "targetRegions": [
+        "US",
+        "Europe"
+      ],
+      "targetIndustries": [
+        "Manufacturing",
+        "Professional Services",
+        "Healthcare",
+        "Education",
+        "Government"
+      ],
+      "ttps": [
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1133",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1133/"
+        },
+        {
+          "id": "T1078",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "id": "T1059.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        },
+        {
+          "id": "T1105",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1105/"
+        },
+        {
+          "id": "T1021.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1021/"
+        },
+        {
+          "id": "T1486",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1486/"
+        },
+        {
+          "id": "T1041",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1041/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/everest",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "FOG",
+      "aliases": [],
+      "type": "Ransomware / Cybercrime",
+      "activeSince": 2024,
+      "lastObserved": "2025",
+      "status": "unknown",
+      "statusLabel": "Unknown",
+      "region": "Global/Multi-region",
+      "country": "Unknown/Multiple",
+      "targetRegions": [],
+      "targetIndustries": [
+        "Education",
+        "Financial Services",
+        "Sports/Leisure"
+      ],
+      "ttps": [
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1003",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1003/"
+        },
+        {
+          "id": "T1550",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1550/"
+        },
+        {
+          "id": "T1021",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1021/"
+        },
+        {
+          "id": "T1562",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1562/"
+        },
+        {
+          "id": "T1486",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1486/"
+        },
+        {
+          "id": "T1490",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1490/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/fog",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "INC Ransom",
+      "aliases": [],
+      "type": "Ransomware / Cybercrime",
+      "activeSince": 2023,
+      "lastObserved": "Ongoing",
+      "status": "active",
+      "statusLabel": "Active",
+      "region": "Global/Multi-region",
+      "country": "Unknown/Multiple",
+      "targetRegions": [
+        "US",
+        "Western Europe"
+      ],
+      "targetIndustries": [
+        "Manufacturing",
+        "Healthcare",
+        "Professional Services",
+        "Education"
+      ],
+      "ttps": [
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1133",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1133/"
+        },
+        {
+          "id": "T1078",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "id": "T1059.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        },
+        {
+          "id": "T1105",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1105/"
+        },
+        {
+          "id": "T1021.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1021/"
+        },
+        {
+          "id": "T1486",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1486/"
+        },
+        {
+          "id": "T1041",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1041/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/inc_ransom",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "KillSec",
+      "aliases": [],
+      "type": "Ransomware / Cybercrime",
+      "activeSince": 2021,
+      "lastObserved": "2026",
+      "status": "unknown",
+      "statusLabel": "Unknown",
+      "region": "Global/Multi-region",
+      "country": "Unknown/Multiple",
+      "targetRegions": [
+        "India",
+        "US",
+        "Latin America"
+      ],
+      "targetIndustries": [
+        "Healthcare",
+        "Technology",
+        "Financial Services",
+        "Government",
+        "Manufacturing"
+      ],
+      "ttps": [
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1195",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1195/"
+        },
+        {
+          "id": "T1566",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1059",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        },
+        {
+          "id": "T1003",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1003/"
+        },
+        {
+          "id": "T1110",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1110/"
+        },
+        {
+          "id": "T1567",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1567/"
+        },
+        {
+          "id": "T1486",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1486/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/killsec",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "LAPSUS",
+      "aliases": [
+        "DEV-0537"
+      ],
+      "type": "Ransomware / Cybercrime",
+      "activeSince": 2021,
+      "lastObserved": "2022",
+      "status": "unknown",
+      "statusLabel": "Unknown",
+      "region": "Global/Multi-region",
+      "country": "Unknown/Multiple",
+      "targetRegions": [
+        "US",
+        "Latin America",
+        "Western Europe"
+      ],
+      "targetIndustries": [
+        "Large Tech Vendors",
+        "Telecoms",
+        "Outsourcing/BPO",
+        "Media"
+      ],
+      "ttps": [
+        {
+          "id": "T1078",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "id": "T1098",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1098/"
+        },
+        {
+          "id": "T1110",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1110/"
+        },
+        {
+          "id": "T1539",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1539/"
+        },
+        {
+          "id": "T1585.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1585/"
+        },
+        {
+          "id": "T1041",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1041/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/lapsus",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "Scattered Spider",
+      "aliases": [
+        "UNC3944",
+        "Octo Tempest",
+        "0ktapus"
+      ],
+      "type": "Ransomware / Cybercrime",
+      "activeSince": 2022,
+      "lastObserved": "Ongoing",
+      "status": "active",
+      "statusLabel": "Active",
+      "region": "Global/Multi-region",
+      "country": "Unknown/Multiple",
+      "targetRegions": [
+        "US",
+        "UK"
+      ],
+      "targetIndustries": [
+        "Telecoms",
+        "Technology/SaaS",
+        "Outsourcing",
+        "Hospitality/Casinos"
+      ],
+      "ttps": [
+        {
+          "id": "T1566.002",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1078",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "id": "T1098",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1098/"
+        },
+        {
+          "id": "T1110",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1110/"
+        },
+        {
+          "id": "T1539",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1539/"
+        },
+        {
+          "id": "T1041",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1041/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/scattered_spider",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "ShinyHunters",
+      "aliases": [],
+      "type": "Ransomware / Cybercrime",
+      "activeSince": 2020,
+      "lastObserved": "Ongoing",
+      "status": "active",
+      "statusLabel": "Active",
+      "region": "Global/Multi-region",
+      "country": "Unknown/Multiple",
+      "targetRegions": [
+        "US",
+        "Western Europe"
+      ],
+      "targetIndustries": [
+        "Technology",
+        "E-commerce",
+        "Education"
+      ],
+      "ttps": [
+        {
+          "id": "T1110",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1110/"
+        },
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1195",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1195/"
+        },
+        {
+          "id": "T1078",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "id": "T1041",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1041/"
+        },
+        {
+          "id": "T1036.005",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1036/"
+        },
+        {
+          "id": "T1555",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1555/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/shinyhunters",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "Thegentlemen",
+      "aliases": [],
+      "type": "Ransomware / Cybercrime",
+      "activeSince": 2025,
+      "lastObserved": "2024",
+      "status": "unknown",
+      "statusLabel": "Unknown",
+      "region": "Global/Multi-region",
+      "country": "Unknown/Multiple",
+      "targetRegions": [
+        "US",
+        "Europe"
+      ],
+      "targetIndustries": [
+        "Healthcare",
+        "Professional Services",
+        "Manufacturing",
+        "Local Government"
+      ],
+      "ttps": [
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1133",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1133/"
+        },
+        {
+          "id": "T1078",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1078/"
+        },
+        {
+          "id": "T1059.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        },
+        {
+          "id": "T1105",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1105/"
+        },
+        {
+          "id": "T1021.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1021/"
+        },
+        {
+          "id": "T1486",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1486/"
+        },
+        {
+          "id": "T1041",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1041/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/thegentlemen",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "Underground",
+      "aliases": [
+        "UNC2596",
+        "Storm-0978"
+      ],
+      "type": "Ransomware / Cybercrime",
+      "activeSince": 2023,
+      "lastObserved": "2025",
+      "status": "unknown",
+      "statusLabel": "Unknown",
+      "region": "Global/Multi-region",
+      "country": "Unknown/Multiple",
+      "targetRegions": [
+        "Americas",
+        "Europe",
+        "East Asia"
+      ],
+      "targetIndustries": [
+        "Aerospace",
+        "Construction",
+        "Legal/Financial",
+        "Government",
+        "Logistics",
+        "Healthcare"
+      ],
+      "ttps": [
+        {
+          "id": "T1587",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1587/"
+        },
+        {
+          "id": "T1566",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1203",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1203/"
+        },
+        {
+          "id": "T1027",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1027/"
+        },
+        {
+          "id": "T1497",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1497/"
+        },
+        {
+          "id": "T1555",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1555/"
+        },
+        {
+          "id": "T1021",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1021/"
+        },
+        {
+          "id": "T1005",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1005/"
+        },
+        {
+          "id": "T1090",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1090/"
+        },
+        {
+          "id": "T1041",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1041/"
+        },
+        {
+          "id": "T1657",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1657/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/underground",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "Lynx Ransomware",
+      "aliases": [],
+      "type": "Ransomware / Cybercrime",
+      "activeSince": 2024,
+      "lastObserved": "2024",
+      "status": "unknown",
+      "statusLabel": "Unknown",
+      "region": "Global/Multi-region",
+      "country": "Unknown/Multiple",
+      "targetRegions": [],
+      "targetIndustries": [
+        "Limited Info"
+      ],
+      "ttps": [],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/lynx_ransomware",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "Nova",
+      "aliases": [],
+      "type": "Ransomware / Cybercrime",
+      "activeSince": 2025,
+      "lastObserved": "2025",
+      "status": "unknown",
+      "statusLabel": "Unknown",
+      "region": "Global/Multi-region",
+      "country": "Unknown/Multiple",
+      "targetRegions": [],
+      "targetIndustries": [
+        "Limited Info"
+      ],
+      "ttps": [],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/nova",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "Sinobi",
+      "aliases": [],
+      "type": "Ransomware / Cybercrime",
+      "activeSince": 2025,
+      "lastObserved": "2025",
+      "status": "unknown",
+      "statusLabel": "Unknown",
+      "region": "Global/Multi-region",
+      "country": "Unknown/Multiple",
+      "targetRegions": [],
+      "targetIndustries": [
+        "Limited Info"
+      ],
+      "ttps": [],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/sinobi",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "DragonForce",
+      "aliases": [],
+      "type": "Ransomware / Cybercrime",
+      "activeSince": 2023,
+      "lastObserved": "2025",
+      "status": "unknown",
+      "statusLabel": "Unknown",
+      "region": "Asia-Pacific",
+      "country": "Malaysia",
+      "targetRegions": [
+        "Israel",
+        "India"
+      ],
+      "targetIndustries": [
+        "Government",
+        "Education",
+        "Corporate Websites"
+      ],
+      "ttps": [
+        {
+          "id": "T1491.001",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1491/"
+        },
+        {
+          "id": "T1565.002",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1565/"
+        },
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1105",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1105/"
+        },
+        {
+          "id": "T1041",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1041/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/dragonforce",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "Hive0137",
+      "aliases": [
+        "TA571",
+        "ITG23"
+      ],
+      "type": "Other / Uncategorized",
+      "activeSince": 2022,
+      "lastObserved": "2026",
+      "status": "active",
+      "statusLabel": "Active",
+      "region": "Global/Multi-region",
+      "country": "Unknown/Multiple",
+      "targetRegions": [
+        "Global"
+      ],
+      "targetIndustries": [
+        "E-commerce",
+        "Retail",
+        "Logistics",
+        "Manufacturing"
+      ],
+      "ttps": [
+        {
+          "id": "T1566",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1566/"
+        },
+        {
+          "id": "T1059",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        },
+        {
+          "id": "T1027",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1027/"
+        },
+        {
+          "id": "T1071",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1071/"
+        },
+        {
+          "id": "T1083",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1083/"
+        },
+        {
+          "id": "T1113",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1113/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/hive0137",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "KaruHunters",
+      "aliases": [],
+      "type": "Other / Uncategorized",
+      "activeSince": 2024,
+      "lastObserved": "2026",
+      "status": "active",
+      "statusLabel": "Active",
+      "region": "Global/Multi-region",
+      "country": "Unknown/Multiple",
+      "targetRegions": [
+        "Global"
+      ],
+      "targetIndustries": [
+        "IT/Consulting",
+        "Government",
+        "Research",
+        "Telecoms",
+        "Manufacturing",
+        "Healthcare",
+        "Gambling"
+      ],
+      "ttps": [
+        {
+          "id": "T1059",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        },
+        {
+          "id": "T1027",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1027/"
+        },
+        {
+          "id": "T1055",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1055/"
+        },
+        {
+          "id": "T1562",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1562/"
+        },
+        {
+          "id": "T1555",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1555/"
+        },
+        {
+          "id": "T1082",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1082/"
+        },
+        {
+          "id": "T1567",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1567/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/karuhunters",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "Dark Storm Team",
+      "aliases": [
+        "DarkStorm",
+        "MRHELL112"
+      ],
+      "type": "Hacktivist / DDoS",
+      "activeSince": 2023,
+      "lastObserved": "2026",
+      "status": "active",
+      "statusLabel": "Active",
+      "region": "Middle East",
+      "country": "Unknown/Multiple",
+      "targetRegions": [
+        "Israel",
+        "US",
+        "Ukraine",
+        "UAE"
+      ],
+      "targetIndustries": [
+        "Government",
+        "Financial Institutions",
+        "Aviation",
+        "Social Media"
+      ],
+      "ttps": [
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1090",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1090/"
+        },
+        {
+          "id": "T1498",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1498/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/dark_storm_team",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "Holy League",
+      "aliases": [],
+      "type": "Hacktivist / DDoS",
+      "activeSince": 2024,
+      "lastObserved": "2026",
+      "status": "active",
+      "statusLabel": "Active",
+      "region": "Global/Multi-region",
+      "country": "Unknown/Multiple",
+      "targetRegions": [],
+      "targetIndustries": [],
+      "ttps": [
+        {
+          "id": "T1190",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1190/"
+        },
+        {
+          "id": "T1505",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1505/"
+        },
+        {
+          "id": "T1059",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1059/"
+        },
+        {
+          "id": "T1620",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1620/"
+        },
+        {
+          "id": "T1219",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1219/"
+        },
+        {
+          "id": "T1486",
+          "name": "ATT&CK Technique",
+          "url": "https://attack.mitre.org/techniques/T1486/"
+        }
+      ],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/holy_league",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    },
+    {
+      "name": "Devman",
+      "aliases": [],
+      "type": "Hacktivist / DDoS",
+      "activeSince": 2025,
+      "lastObserved": "2026",
+      "status": "unknown",
+      "statusLabel": "Unknown",
+      "region": "Global/Multi-region",
+      "country": "Unknown/Multiple",
+      "targetRegions": [],
+      "targetIndustries": [
+        "Limited Info"
+      ],
+      "ttps": [],
+      "sourceLinks": {
+        "malpedia": "https://malpedia.caad.fkie.fraunhofer.de/actor/devman",
+        "threatcodex": "https://threatcodex.com/"
+      }
+    }
+  ]
+}
