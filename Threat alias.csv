@@ -1,0 +1,100 @@
+alias_id,main_threat_actor_id,alias_name
+1,APT10,Cicada
+2,APT10,POTASSIUM
+3,APT10,Stone Panda
+4,APT10,Red Apollo
+5,APT10,CVNX
+6,APT10,HOGFISH
+7,APT10,BRONZE RIVERSIDE
+8,APT27,Threat Group 3390
+9,APT27,TG-3390
+10,APT27,Emissary Panda
+11,APT31,Judgement Panda
+12,APT31,Violet Typhoon
+13,APT41,Double Dragon
+14,APT41,Wicked Panda
+15,APT41,BARIUM
+16,BRONZE BUTLER,Tick
+17,BRONZE BUTLER,RedBaldKnight
+18,Earth Alux,REF7707
+19,Earth Alux,Jewelbug
+20,Earth Alux,Ink Dragon
+21,Earth Alux,Long Nosed Goblin
+22,Earth Alux,Trend Micro
+23,Mustang Panda,TA416
+24,Mustang Panda,RedDelta
+25,Mustang Panda,Earth Preta
+26,APT15,Nylon Typhoon
+27,APT15,Ke3Chang
+28,APT15,Vixen Panda
+29,Salt Typhoon,UNC2286
+30,Salt Typhoon,GhostEmperor
+31,Salt Typhoon,FamousSparrow
+32,Salt Typhoon,OPERATOR PANDA
+33,ShadyPanda,Dark Spectre
+34,ShadyPanda,Ghost Poster
+35,Storm-1849,UAT4356
+36,FireAnt,UNC3886
+37,UTA0178,UNC5221
+38,UTA0178,Red Dev 61
+39,Volt Typhoon,Voltzite
+40,Volt Typhoon,UNC3236
+41,APT28,Fancy Bear
+42,APT28,Forest Blizzard
+43,APT28,Pawn Storm
+44,APT29,Cozy Bear
+45,APT29,Midnight Blizzard
+46,APT29,UNC2452
+47,Blue Callisto,Star Blizzard
+48,Blue Callisto,TAG-53
+49,Gamaredon,Primitive Bear
+50,Gamaredon,Armageddon
+51,Gamaredon,Shuckworm
+52,Sandworm Team,APT44
+53,Sandworm Team,BlackEnergy
+54,Sandworm Team,VoodooBear
+55,Turla,Snake
+56,Turla,Venomous Bear
+57,Turla,KRYPTON
+58,Void Blizzard,Laundry Bear
+59,APT38,Stardust Chollima
+60,APT38,Bluenoroff
+61,Lazarus,Hidden Cobra
+62,Lazarus,Labyrinth Chollima
+63,Lazarus,Zinc
+64,Kimsuky,Velvet Chollima
+65,Kimsuky,Thallium
+66,Kimsuky,Black Banshee
+67,Moonstone Sleet,Storm-1789
+68,Moonstone Sleet,Group G1036
+69,ScarCruft,APT37
+70,ScarCruft,Reaper
+71,ScarCruft,Ricochet Chollima
+72,ScarCruft,Group123
+73,WageMole,CL-STA-0240
+74,WageMole,CL-STA-0241
+75,WageMole,WaterPlum
+76,WageMole,Famous Chollima
+77,WageMole,PurpleBravo
+78,APT33,Elfin
+79,APT33,Refined Kitten
+80,APT33,Magnallium
+81,APT33,HOLMIUM
+82,Charming Kitten,APT35
+83,Charming Kitten,Phosphorus
+84,Charming Kitten,Newscaster
+85,Charming Kitten,Ajax Security Team
+86,MuddyWater,Seedworm
+87,MuddyWater,Mercury
+88,MuddyWater,TEMP.Zagros
+89,MuddyWater,Static Kitten
+90,HAZY TIGER,Bitter
+91,HAZY TIGER,TA397
+92,HAZY TIGER,Manlinghua
+93,HAZY TIGER,Cranberry
+94,HAZY TIGER,Earth Anasi
+95,Sea Turtle,Marbled Dust
+96,Sea Turtle,Cosmic Wolf
+97,Sea Turtle,SILICON
+98,Sea Turtle,Teal Kurma
+99,Sea Turtle,UNC1326
