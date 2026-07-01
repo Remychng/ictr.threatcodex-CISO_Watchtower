@@ -1,0 +1,18 @@
+{
+  "name": "threatcodex",
+  "version": "1.0.0",
+  "description": "Interactive threat-actor intelligence dashboard with a rotating globe and search.",
+  "type": "module",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "node --watch server/server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "csv-parse": "^5.6.0",
+    "express": "^4.21.2"
+  }
+}
